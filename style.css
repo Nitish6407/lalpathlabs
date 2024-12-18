@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 19vh;
+  
+}
+.header li {
+    list-style: none;
+    
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.head1{
+    width:100%;
+    height: 6vh;  
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20rem;
+    align-items: center;
+    background-color: #FECC4E;
+}
+.blog_head{
+    display: flex;
+    gap: 0.4rem;
+}
+.user-data{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.user-data a{
+    color: blue;
+}
+.patient a{
+    color: blue;
+    text-decoration: underline;
+}
+.nav-hover{
+    display: flex;
+    gap: 2rem;
+}
+.nav-hover a:hover{
+   color: blue;
+   text-decoration: underline;
+}
+.head2{
+    padding-top: 0.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.location-Delhi{
+    display: flex;
+    gap: 0.4rem;
+}
+.input-container{
+    display: flex;
+}
+.loc-drop{
+    /* height: 8vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+   
+}
+.dropdown select{
+    appearance: none;
+    border: white;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+    padding: 0.3rem;
+}
+.input-container{
+    margin-top: 1.2rem;
+    margin-right: 8rem;
+}
+.ng-touched{
+    border: none;
+    
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+    padding: 0.3rem;
+}
+.search-icon-img{
+    color: blue;
+}
+.link-for-last{
+   
+    width: 8%;
+    /* padding-left: 0.11rem; */
+    display: flex;
+    background-color: blue;
+    gap: 0.4rem;
+    border-radius: 5px;
+}
+.div-left {
+    padding-left:0.2rem ;
+    color: aliceblue;
+    border-left: 2px solid grey;
+}
+
+.center{
+    /* position: absolute; */
+    width: 100%;
+    height: 33vh;
+    margin-top: -0.4%;
+    background-color: #0047AF;
+}
+.center-content{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.nearest-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 0.6rem;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+.nearest-center-text{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nearest-center-img img {
+    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1); /* Default size */
+}
+
+.nearest-center-img img:hover {
+    transform: scale(1.2); /* Zoom out to 80% of the original size */
+}
+.mid-section{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+  
+}
+.sp-con-main{
+    margin-top: -1.5rem;
+    width: 86%;
+    height: 43vh;
+    border-radius: 15px;
+    /* border:2px solid red; */
+    /* position: relative;
+    z-index: 2; */
+    top:14rem;
+    background-color: aliceblue;
+    padding: 1.4rem;
+}
+.special_program{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.spcontent_text{
+    font-size: large;
+    
+}
+.sp_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spcontent_img img {
+    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1); /* Default size */
+}
+
+.spcontent_img img:hover {
+    transform: scale(1.2); /* Zoom out to 80% of the original size */
+}
+.popular_test{
+
+    width: 86%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+}
+.popular_test_main{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: space-between;
+}
+.play_card{
+   
+    margin-top: 1rem;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.test_card_main{
+    border: 1px solid grey;
+    width:32%;
+    border-radius: 15px;
+    padding: 1rem;
+    
+}
+.card_body{
+    border-top: 1px solid grey;;
+}
+.card_body_content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.3rem;
+}
+.card_body_content_text a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.card_know_more a{
+    text-decoration: none;
+    margin-left: 18rem;
+}
+.card_price{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.2rem;
+    background-color: #FECC4E;
+}
+.book_now{
+   
+    padding-left: 5rem;
+    background-color: #0047AF;
+}
+.book_now a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 2rem;
+}
+.Search_test{
+    
+    width: 86%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+}
+.lifestyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lifestyle_buttons button {
+    background-color: #FECC4E; /* Button background color */
+    color: #1e1010; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    padding:5px 10px ; /* Padding for size */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.lifestyle_buttons button:hover {
+    background-color: gray; /* Darker shade on hover */
+}
+
+/* Active State */
+.lifestyle_buttons button:active {
+    background-color: #002060; /* Even darker shade on click */
+    transform: scale(0.98); /* Slightly shrink the button */
+}
+
+/* Disabled State */
+.lifestyle_buttons button:disabled {
+    background-color: #ccc; /* Gray background for disabled buttons */
+    cursor: not-allowed; /* Disabled cursor */
+    color: #666; /* Text color for disabled state */
+}
+.lifestyle_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ng-touched2{
+   padding: 0.4rem;
+}
+/* .img_detailing{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+} */
+ .img_detailing{
+    margin-top: 5rem;
+    
+    display: flex;
+   justify-content: space-around;
+ }
+ .img_detailing_img{
+    border-left: 0.2px solid rgb(251, 234, 234);
+    border-right: 0.2px solid rgb(251, 234, 234);
+    padding: 2rem;
+ }
+ .why{
+    
+    width: 86%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+ }
+ .flex_main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 2rem;
+ }
+ .flex_main_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .flex_main_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .first_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+ .first_box_resj p{
+    font-size: 48px;
+    color: #0047AF;
+ }
+ /* .promotions{
+    width: 86%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+ }*/
+ .promotions {
+    width: 86%;
+    height: auto; /* Let the height adjust dynamically based on content */
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+    margin: auto; /* Center the container on the page */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
+.img_boxing {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    gap: 20px; /* Add space between images */
+    justify-content: center; /* Center all images */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.imp_pictu {
+    position: relative; /* Enable absolute positioning for child elements */
+    max-width: 400px; /* Restrict max width for better alignment */
+}
+
+.imp_pictu_family img {
+    width: 100%; /* Make the image scale to fit the container */
+    max-width: 380px; /* Restrict the image width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.img_pictu_text {
+    position: absolute; /* Position text over the image */
+    bottom: 10px; /* Adjust placement on the image */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center alignment correction */
+    color: rgb(59, 56, 56); /* Text color for better visibility */
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: white; /* Add a semi-transparent background */
+    padding: 5px 3px;
+    border-radius: 4px; /* Rounded background corners */
+    text-align: center;
+}
+.explo {
+    width: 86%;
+    height: auto; /* Let height adjust dynamically */
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 1.4rem;
+    margin: auto; /* Center the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+
+
+.explo_img {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically if container height is fixed */
+}
+
+.explo_img img {
+    width: 100%; /* Make the image responsive */
+    max-width: 1200px; /* Restrict the maximum width */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    object-fit: contain; /* Prevent distortion */
+}
+.homepage {
+    width: 100%;
+    height: auto; /* Allow the height to adjust dynamically */
+    display: flex; /* Center content inside the homepage section */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    background-color: #f8f9fa; /* Optional: Add a background color */
+    /* Add some padding for spacing */
+}
+
+.homepage-img img {
+    width: 100%; /* Make the image responsive */
+    max-width: 1800px; /* Restrict the maximum width */
+    height: auto; /* Maintain the image's aspect ratio */
+   /* Optional: Add rounded corners */
+    object-fit: contain; /* Ensure the image fits within the container without distortion */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
